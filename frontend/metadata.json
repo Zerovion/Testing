@@ -1,0 +1,6 @@
+{
+  "name": "Shared Study & Progress Tracker",
+  "description": "A shared multi-user Japanese learning, goal tracking, routine timetable, and surprise reward platform for Admin and Learner.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

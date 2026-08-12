@@ -1,0 +1,711 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "username": "admin",
+      "name": "Aboli (Admin)",
+      "role": "admin",
+      "pairId": "default"
+    },
+    {
+      "id": "user-learner",
+      "username": "learner",
+      "name": "Boyfriend (Learner)",
+      "role": "learner",
+      "pairId": "default"
+    }
+  ],
+  "passwords": {
+    "admin": "$2b$08$j3Ui2ViCa9tOWS/r7vC8yeTLF8CzpL66wM2T9328t9L01t0DVI1tG",
+    "learner": "$2b$08$d86.RvjPul8IlDPZYvpo4.5pv08OkNtxSe4XzPddHAvrJ1rAcw9UC"
+  },
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Revise Hiragana & Katakana",
+      "assignedTo": "learner",
+      "createdBy": "admin",
+      "category": "Japanese N5",
+      "date": "2026-08-12",
+      "completed": true,
+      "requiredForDaily": true,
+      "completedAt": "2026-08-12T14:44:29.718Z",
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Learn 15 new N5 vocabulary words",
+      "assignedTo": "learner",
+      "createdBy": "admin",
+      "category": "Japanese N5",
+      "date": "2026-08-12",
+      "completed": true,
+      "requiredForDaily": true,
+      "completedAt": "2026-08-12T14:44:29.718Z",
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-3",
+      "title": "Complete N5 Lesson 4 Grammar",
+      "assignedTo": "learner",
+      "createdBy": "admin",
+      "category": "Japanese N5",
+      "date": "2026-08-12",
+      "completed": true,
+      "requiredForDaily": true,
+      "completedAt": "2026-08-12T14:44:29.718Z",
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Practice 10 Japanese sentences",
+      "assignedTo": "learner",
+      "createdBy": "admin",
+      "category": "Japanese N5",
+      "date": "2026-08-12",
+      "completed": false,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-5",
+      "title": "Complete today's N5 practice quiz",
+      "assignedTo": "learner",
+      "createdBy": "admin",
+      "category": "Japanese N5",
+      "date": "2026-08-12",
+      "completed": false,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-admin-1",
+      "title": "Japanese N4 — Complete N4 Lesson 13 Grammar",
+      "assignedTo": "admin",
+      "createdBy": "admin",
+      "category": "Japanese N4",
+      "date": "2026-08-12",
+      "completed": true,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-admin-2",
+      "title": "Skills / Internship — Solve 2 DSA problems",
+      "assignedTo": "admin",
+      "createdBy": "admin",
+      "category": "Skills / Internship",
+      "date": "2026-08-12",
+      "completed": false,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-admin-3",
+      "title": "College Study — Revise today's lecture notes",
+      "assignedTo": "admin",
+      "createdBy": "admin",
+      "category": "College Study",
+      "date": "2026-08-12",
+      "completed": false,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    },
+    {
+      "id": "task-admin-4",
+      "title": "Exercise — 45 mins cardio & stretching",
+      "assignedTo": "admin",
+      "createdBy": "admin",
+      "category": "Exercise",
+      "date": "2026-08-12",
+      "completed": true,
+      "requiredForDaily": true,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    }
+  ],
+  "surprises": [
+    {
+      "id": "surprise-1",
+      "title": "Today's Special Reward 🎁",
+      "type": "sweet_message",
+      "conditionType": "all_today_tasks",
+      "scheduledDate": "2026-08-12",
+      "unlocked": false,
+      "viewed": false,
+      "createdAt": "2026-08-12T14:44:29.718Z",
+      "content": {
+        "message": "You did an amazing job today! I'm really proud of you ❤️ Keep going — one day at a time! I love seeing your dedication to Japanese!"
+      }
+    },
+    {
+      "id": "surprise-2",
+      "title": "5-Day Streak Trophy 🏆",
+      "type": "badge",
+      "conditionType": "streak_days",
+      "conditionValue": 5,
+      "unlocked": true,
+      "unlockedAt": "2026-08-12T14:44:29.718Z",
+      "viewed": true,
+      "viewedAt": "2026-08-12T14:44:29.718Z",
+      "createdAt": "2026-08-12T14:44:29.718Z",
+      "content": {
+        "badgeName": "N5 Samurai Master 🗡️",
+        "badgeIcon": "🔥",
+        "message": "5 Days in a row! You are unstoppable!"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "sender": "admin",
+      "text": "You can do it! ❤️ Just two more tasks left for today's surprise! I'm so proud of your progress 🥰",
+      "createdAt": "2026-08-12T14:44:29.718Z",
+      "active": true
+    }
+  ],
+  "reactions": [
+    {
+      "id": "react-1",
+      "emoji": "❤️",
+      "senderRole": "learner",
+      "createdAt": "2026-08-12T13:44:29.718Z"
+    },
+    {
+      "id": "react-2",
+      "emoji": "🥰",
+      "senderRole": "learner",
+      "createdAt": "2026-08-12T14:14:29.718Z"
+    }
+  ],
+  "cuteNotes": [
+    {
+      "id": "note-1",
+      "text": "I'm working hard on N5 Lesson 4! Miss you 🥺❤️",
+      "senderRole": "learner",
+      "createdAt": "2026-08-12T12:44:29.718Z"
+    }
+  ],
+  "voiceNotes": [],
+  "lessons": [
+    {
+      "id": "n5-lesson-1",
+      "level": "N5",
+      "lessonNumber": 1,
+      "title": "N5 Lesson 1",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.639Z"
+    },
+    {
+      "id": "n5-lesson-2",
+      "level": "N5",
+      "lessonNumber": 2,
+      "title": "N5 Lesson 2",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.640Z"
+    },
+    {
+      "id": "n5-lesson-3",
+      "level": "N5",
+      "lessonNumber": 3,
+      "title": "N5 Lesson 3",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n5-lesson-4",
+      "level": "N5",
+      "lessonNumber": 4,
+      "title": "N5 Lesson 4",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n5-lesson-5",
+      "level": "N5",
+      "lessonNumber": 5,
+      "title": "N5 Lesson 5",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-6",
+      "level": "N5",
+      "lessonNumber": 6,
+      "title": "N5 Lesson 6",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-7",
+      "level": "N5",
+      "lessonNumber": 7,
+      "title": "N5 Lesson 7",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-8",
+      "level": "N5",
+      "lessonNumber": 8,
+      "title": "N5 Lesson 8",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-9",
+      "level": "N5",
+      "lessonNumber": 9,
+      "title": "N5 Lesson 9",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-10",
+      "level": "N5",
+      "lessonNumber": 10,
+      "title": "N5 Lesson 10",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-11",
+      "level": "N5",
+      "lessonNumber": 11,
+      "title": "N5 Lesson 11",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-12",
+      "level": "N5",
+      "lessonNumber": 12,
+      "title": "N5 Lesson 12",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-13",
+      "level": "N5",
+      "lessonNumber": 13,
+      "title": "N5 Lesson 13",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-14",
+      "level": "N5",
+      "lessonNumber": 14,
+      "title": "N5 Lesson 14",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-15",
+      "level": "N5",
+      "lessonNumber": 15,
+      "title": "N5 Lesson 15",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-16",
+      "level": "N5",
+      "lessonNumber": 16,
+      "title": "N5 Lesson 16",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-17",
+      "level": "N5",
+      "lessonNumber": 17,
+      "title": "N5 Lesson 17",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-18",
+      "level": "N5",
+      "lessonNumber": 18,
+      "title": "N5 Lesson 18",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-19",
+      "level": "N5",
+      "lessonNumber": 19,
+      "title": "N5 Lesson 19",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-20",
+      "level": "N5",
+      "lessonNumber": 20,
+      "title": "N5 Lesson 20",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-21",
+      "level": "N5",
+      "lessonNumber": 21,
+      "title": "N5 Lesson 21",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-22",
+      "level": "N5",
+      "lessonNumber": 22,
+      "title": "N5 Lesson 22",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-23",
+      "level": "N5",
+      "lessonNumber": 23,
+      "title": "N5 Lesson 23",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-24",
+      "level": "N5",
+      "lessonNumber": 24,
+      "title": "N5 Lesson 24",
+      "completed": false
+    },
+    {
+      "id": "n5-lesson-25",
+      "level": "N5",
+      "lessonNumber": 25,
+      "title": "N5 Lesson 25",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-1",
+      "level": "N4",
+      "lessonNumber": 1,
+      "title": "N4 Lesson 1",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-2",
+      "level": "N4",
+      "lessonNumber": 2,
+      "title": "N4 Lesson 2",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-3",
+      "level": "N4",
+      "lessonNumber": 3,
+      "title": "N4 Lesson 3",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-4",
+      "level": "N4",
+      "lessonNumber": 4,
+      "title": "N4 Lesson 4",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-5",
+      "level": "N4",
+      "lessonNumber": 5,
+      "title": "N4 Lesson 5",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-6",
+      "level": "N4",
+      "lessonNumber": 6,
+      "title": "N4 Lesson 6",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-7",
+      "level": "N4",
+      "lessonNumber": 7,
+      "title": "N4 Lesson 7",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-8",
+      "level": "N4",
+      "lessonNumber": 8,
+      "title": "N4 Lesson 8",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-9",
+      "level": "N4",
+      "lessonNumber": 9,
+      "title": "N4 Lesson 9",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-10",
+      "level": "N4",
+      "lessonNumber": 10,
+      "title": "N4 Lesson 10",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-11",
+      "level": "N4",
+      "lessonNumber": 11,
+      "title": "N4 Lesson 11",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-12",
+      "level": "N4",
+      "lessonNumber": 12,
+      "title": "N4 Lesson 12",
+      "completed": true,
+      "completedAt": "2026-08-12T14:44:29.641Z"
+    },
+    {
+      "id": "n4-lesson-13",
+      "level": "N4",
+      "lessonNumber": 13,
+      "title": "N4 Lesson 13",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-14",
+      "level": "N4",
+      "lessonNumber": 14,
+      "title": "N4 Lesson 14",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-15",
+      "level": "N4",
+      "lessonNumber": 15,
+      "title": "N4 Lesson 15",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-16",
+      "level": "N4",
+      "lessonNumber": 16,
+      "title": "N4 Lesson 16",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-17",
+      "level": "N4",
+      "lessonNumber": 17,
+      "title": "N4 Lesson 17",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-18",
+      "level": "N4",
+      "lessonNumber": 18,
+      "title": "N4 Lesson 18",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-19",
+      "level": "N4",
+      "lessonNumber": 19,
+      "title": "N4 Lesson 19",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-20",
+      "level": "N4",
+      "lessonNumber": 20,
+      "title": "N4 Lesson 20",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-21",
+      "level": "N4",
+      "lessonNumber": 21,
+      "title": "N4 Lesson 21",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-22",
+      "level": "N4",
+      "lessonNumber": 22,
+      "title": "N4 Lesson 22",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-23",
+      "level": "N4",
+      "lessonNumber": 23,
+      "title": "N4 Lesson 23",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-24",
+      "level": "N4",
+      "lessonNumber": 24,
+      "title": "N4 Lesson 24",
+      "completed": false
+    },
+    {
+      "id": "n4-lesson-25",
+      "level": "N4",
+      "lessonNumber": 25,
+      "title": "N4 Lesson 25",
+      "completed": false
+    }
+  ],
+  "streak": {
+    "currentStreak": 5,
+    "lastCompletedDate": "2026-08-11",
+    "milestonesUnlocked": [
+      3,
+      5
+    ]
+  },
+  "notifications": [
+    {
+      "id": "notif-1",
+      "recipientRole": "learner",
+      "senderRole": "admin",
+      "type": "encouragement",
+      "title": "💌 New message from Aboli",
+      "message": "You can do it! ❤️ Just two more tasks left for today's surprise!",
+      "targetTab": "messages",
+      "read": false,
+      "createdAt": "2026-08-12T14:44:29.718Z"
+    }
+  ],
+  "timetable": [
+    {
+      "id": "slot-1",
+      "ownerRole": "admin",
+      "timeRange": "7:00 AM – 8:00 AM",
+      "startHour": 7,
+      "startMinute": 0,
+      "endHour": 8,
+      "endMinute": 0,
+      "activity": "Wake Up & Morning Routine ☀️",
+      "category": "General",
+      "description": "Wake up, morning refresh & breakfast",
+      "isStudySession": false
+    },
+    {
+      "id": "slot-2",
+      "ownerRole": "admin",
+      "timeRange": "8:00 AM – 6:00 PM",
+      "startHour": 8,
+      "startMinute": 0,
+      "endHour": 18,
+      "endMinute": 0,
+      "activity": "College 🏫",
+      "category": "College Study",
+      "description": "Lectures, practicals, campus work",
+      "isStudySession": false
+    },
+    {
+      "id": "slot-3",
+      "ownerRole": "admin",
+      "timeRange": "6:00 PM – 8:00 PM",
+      "startHour": 18,
+      "startMinute": 0,
+      "endHour": 20,
+      "endMinute": 0,
+      "activity": "Travel, Meals, Rest & Free Time 🍛",
+      "category": "General",
+      "description": "Travel home, dinner prep, relax",
+      "isStudySession": false
+    },
+    {
+      "id": "slot-4",
+      "ownerRole": "admin",
+      "timeRange": "8:00 PM – 10:30 PM",
+      "startHour": 20,
+      "startMinute": 0,
+      "endHour": 22,
+      "endMinute": 30,
+      "activity": "Exercise 🏃‍♀️",
+      "category": "Exercise",
+      "description": "Workout, cardio, stretching",
+      "isStudySession": true
+    },
+    {
+      "id": "slot-5",
+      "ownerRole": "admin",
+      "timeRange": "10:00 PM – 10:30 PM",
+      "startHour": 22,
+      "startMinute": 0,
+      "endHour": 22,
+      "endMinute": 30,
+      "activity": "Shower + Dinner 🚿",
+      "category": "General",
+      "description": "Shower and late dinner",
+      "isStudySession": false
+    },
+    {
+      "id": "slot-6",
+      "ownerRole": "admin",
+      "timeRange": "10:30 PM – 11:30 PM",
+      "startHour": 22,
+      "startMinute": 30,
+      "endHour": 23,
+      "endMinute": 30,
+      "activity": "Japanese N4 🇯🇵",
+      "category": "Japanese N4",
+      "description": "N4 grammar, Kanji & vocabulary practice",
+      "isStudySession": true
+    },
+    {
+      "id": "slot-7",
+      "ownerRole": "admin",
+      "timeRange": "11:30 PM – 12:30 AM",
+      "startHour": 23,
+      "startMinute": 30,
+      "endHour": 0,
+      "endMinute": 30,
+      "activity": "Skills / Internship 💻",
+      "category": "Skills / Internship",
+      "description": "Coding, DSA problems, project development",
+      "isStudySession": true
+    },
+    {
+      "id": "slot-8",
+      "ownerRole": "admin",
+      "timeRange": "12:30 AM – 12:55 AM",
+      "startHour": 0,
+      "startMinute": 30,
+      "endHour": 0,
+      "endMinute": 55,
+      "activity": "College Study 📚",
+      "category": "College Study",
+      "description": "Assignments, exam prep & lecture revision",
+      "isStudySession": true
+    },
+    {
+      "id": "slot-9",
+      "ownerRole": "admin",
+      "timeRange": "12:55 AM – 1:00 AM",
+      "startHour": 0,
+      "startMinute": 55,
+      "endHour": 1,
+      "endMinute": 0,
+      "activity": "Sleep Preparation 🌙",
+      "category": "General",
+      "description": "Wind down, set alarms",
+      "isStudySession": false
+    },
+    {
+      "id": "slot-10",
+      "ownerRole": "admin",
+      "timeRange": "1:00 AM – 7:00 AM",
+      "startHour": 1,
+      "startMinute": 0,
+      "endHour": 7,
+      "endMinute": 0,
+      "activity": "Sleep 😴",
+      "category": "General",
+      "description": "Rest and recovery",
+      "isStudySession": false
+    }
+  ]
+}
