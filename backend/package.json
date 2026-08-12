@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch server.ts",
     "build": "echo 'No build step needed — running via tsx'",
-    "start": "tsx server.ts",
+    "start": "node node_modules/tsx/dist/cli.mjs server.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
